@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Formularios</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <form action="prueba.php" method="POST">
+                <input type="text" placeholder="Nombre: " name="nombre">
+                <br />
+                <label for="hombre">Hombre</label>
+                <input type="radio" name="sexo" value="hombre">
+                <label>Mujer</label>
+                <input type="radio" name="sexo" value="mujer">
+                <br />
+                <select>
+                    <option name = "2000">2000</option>
+                    <option name = "2001">2001</option>
+                    <option name = "2002">2002</option>                    
+                </select>
+                 <br />
+                 <label>Aceptas los terminos</label>
+                 <input type="checkbox" name="terminos" value="OK"> 
+                <br />
+                <input type="submit" value = "aceptar">          
+            </form>      
+        </div>        
+    </body>
+</html>
